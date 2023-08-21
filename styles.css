@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+body{
+    background-color: hsla(218, 22%, 67%,0.2);
+    font-size: 16px;
+}
+.general{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+h1{
+    font-size: larger;
+    padding:10px 0;
+}
+h3{
+    font-size: large;
+}
+.community, .sub, .whyus{
+    padding: 20px;
+}
+.community{
+    background-color: white;
+}
+.community h1{
+    font-size: x-large;
+    color: hsl(179, 62%, 43%);
+}
+.community h4{
+    color: hsl(71, 73%, 54%);
+    padding: 10px;
+}
+.community p{
+    color: hsl(218, 22%, 67%);
+}
+.sub{
+    background-color: hsl(179, 62%, 43%);
+}
+.sub .dollar{
+    font-size: 30px;
+    color: white;
+}
+.sub .month{
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px;
+}
+.sub button{
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding:5% 35%;
+    margin:10px 3px;
+    border-radius: 5px;
+}
+.whyus{
+    background-color: hsla(179, 62%, 43%,0.5);
+}
+.buttom h1{
+    color: white;
+}
+.buttom{
+    color: hsl(204, 43%, 93%);
+}
+@media (min-width: 750px) {
+    .general{
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        width: 50%;
+    }
+    .buttom{
+        display: flex;
+    }
+    .sub{
+        flex-basis: 50%;
+    }
+    .whyus{
+        flex-basis: 50%;
+    }
+}
